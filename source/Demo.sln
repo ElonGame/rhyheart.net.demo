@@ -81,11 +81,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "算法", "算法", "{4A6741
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Primes", "Demo.Primes\Demo.Primes.csproj", "{9B8FFF35-6C63-4FDA-883C-1BCC947577B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.BitArrays", "Demo.BitArrays\Demo.BitArrays.csproj", "{2E85326B-AB5B-4DD0-9D9B-8F0058CAFE31}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "扩展", "扩展", "{E4E6FF68-81D3-43FD-9D39-5377D3BE743A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Extension", "Demo.Extension\Demo.Extension.csproj", "{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Extension", "Demo.Extension\Demo.Extension.csproj", "{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

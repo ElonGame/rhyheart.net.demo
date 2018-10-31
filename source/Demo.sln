@@ -83,6 +83,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Primes", "Demo.Primes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.BitArrays", "Demo.BitArrays\Demo.BitArrays.csproj", "{2E85326B-AB5B-4DD0-9D9B-8F0058CAFE31}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "扩展", "扩展", "{E4E6FF68-81D3-43FD-9D39-5377D3BE743A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Extension", "Demo.Extension\Demo.Extension.csproj", "{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +217,10 @@ Global
 		{2E85326B-AB5B-4DD0-9D9B-8F0058CAFE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E85326B-AB5B-4DD0-9D9B-8F0058CAFE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E85326B-AB5B-4DD0-9D9B-8F0058CAFE31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,9 +257,9 @@ Global
 		{FE190B87-EB9E-4369-A37B-8E3EC35AF0EF} = {313BEF73-D28D-46EF-8024-9F92DEF733C2}
 		{9B8FFF35-6C63-4FDA-883C-1BCC947577B5} = {4A67417C-CD6E-4F39-85BC-7EA9DCDCB36F}
 		{2E85326B-AB5B-4DD0-9D9B-8F0058CAFE31} = {313BEF73-D28D-46EF-8024-9F92DEF733C2}
+		{CD5EE71C-B49E-40DA-9C0B-F1B7B5E776F7} = {E4E6FF68-81D3-43FD-9D39-5377D3BE743A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980E23D1-40AA-4AA1-9FB2-63DBC9C8986D}
 	EndGlobalSection
-	
 EndGlobal

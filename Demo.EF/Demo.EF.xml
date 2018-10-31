@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Demo.EF</name>
+    </assembly>
+    <members>
+        <member name="M:Demo.EF.Controllers.TestController.Add">
+            <summary>
+            新增数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Demo.EF.Controllers.TestController.List">
+            <summary>
+            获取普通列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Demo.EF.Controllers.TestController.Group">
+            <summary>
+            获取分组列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Demo.EF.Dbs.Class.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Demo.EF.Dbs.Class.Code">
+            <summary>
+            班级编号
+            </summary>
+        </member>
+        <member name="P:Demo.EF.Dbs.Class.Name">
+            <summary>
+            班级名称
+            </summary>
+        </member>
+        <member name="P:Demo.EF.Dbs.Student.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Demo.EF.Dbs.Student.ClassId">
+            <summary>
+            班级ID
+            </summary>
+        </member>
+        <member name="P:Demo.EF.Dbs.Student.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Demo.EF.Dbs.Student.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+    </members>
+</doc>

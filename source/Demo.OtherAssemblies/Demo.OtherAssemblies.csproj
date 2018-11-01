@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.PrivateProtecteds\Demo.PrivateProtecteds.csproj" />
+    <ProjectReference Include="..\Demo.ProtectedInternals\Demo.ProtectedInternals.csproj" />
+  </ItemGroup>
+
+</Project>

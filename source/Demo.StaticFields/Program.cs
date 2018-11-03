@@ -13,5 +13,5 @@ namespace Demo.StaticFields
             Console.WriteLine("二次赋值：" + MyClass.StaticFiled);
             Console.ReadKey();
         }
-    }
+    }   
 }

@@ -6,6 +6,12 @@ namespace Demo.Arrays
     {
         static void Main(string[] args)
         {
+            int[] arr1 = {0,1, 2, 3};
+            int[] arr2 = arr1;
+            Console.WriteLine($"前arr2[2]:{arr2[2]}");
+            arr1[2] = 22;
+            Console.WriteLine($"后arr2[2]:{arr2[2]}");
+
             int[] array1 = new int[3];
             int[] array2 = new int[]{1,2,3};
             int[] array3 = new[] {1, 2, 3};

@@ -7,9 +7,16 @@ namespace Demo.Roche
         static void Main(string[] args)
         {
             Test1();
+            Test2();
             Console.ReadKey();
         }
-        
+
+        private static void Test2()
+        {
+            var time = DateTime.UtcNow;
+            Console.WriteLine("time:{0}",time);
+        }
+
         private static void Test1()
         {
             Console.WriteLine("Test1:");
